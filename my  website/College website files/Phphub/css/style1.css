@@ -1,0 +1,138 @@
+
+    .carousel-inner img {
+  
+   
+    width: 100%; 
+    margin: auto;
+}
+.nav-pills{
+    color:maroon;
+}
+  
+  h1 {
+            color:  red;
+         }
+
+  header 
+        {
+       
+         border-width:70px; 
+		 text-align:center;
+		 color:white;
+		 top:50px;
+		 height:150px;
+        background-repeat: no-repeat;
+		}
+
+
+		body{
+        background-image:url("https://image.freepik.com/free-photo/book-with-green-board-background_1150-3836.jpg ");
+        background-repeat: no-repeat;
+        height:100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+		}
+		
+header img{
+float:left;
+width:100px;
+position:absolute;
+
+}
+
+
+   footer{
+   background-color:maroon;
+   color:white;
+   text-align:center
+   }
+
+
+/* Add a dark background color with a little bit see-through */ 
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 10;
+    font-size: 13px !important;
+    letter-spacing: 3px;
+    opacity:0.9;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+}
+p
+{
+    text-align: justify;
+}
+
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+    background-color: maroon !important;
+}
+/*.login1
+{
+width:70px;
+height:25px;
+text-align:center;
+text-decoration:none;
+color:black;
+position:relative;
+padding:5px 5px;
+left:90%;
+top:30px;
+}
+.reg1
+{
+width:70px;
+height:25px;
+text-align:center;
+text-decoration:none;
+color:black;
+position:relative;
+padding:5px 5px;
+left:80%;
+top:30px;
+}*/
+.right{
+    float:left;
+    display:block;
+    width:70%;
+    position:relative;
+}
+.divp{
+    float:right;
+    display:block;
+    width:30%;
+    position:relative;
+}
