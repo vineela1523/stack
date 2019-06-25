@@ -54,7 +54,7 @@ body{
     color: white;
     font-family: sans-serif;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 25px;
 }
 .topnav-left a:hover {
     background-color: #ddd;
@@ -113,7 +113,7 @@ footer{
   }
   .column {
     float: left;
-    width: 30.33%;
-    padding-right: 10px;
-    height: 400px; 
+    width: 25%;
+    padding: 33px;
+    height: 350px;
     }
