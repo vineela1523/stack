@@ -6,19 +6,30 @@ aside{
   background-color: #333;
 }
 body{
-  background-image:url( https://i.ytimg.com/vi/4l6J5jhRgos/maxresdefault.jpg);
+  background-image:url(https://wallpapersite.com/images/pages/pic_w/916.jpg);
   background-repeat: no-repeat;
-  height:100%;
-  background-position: center;
+  
+   
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.hero-image {
+   
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(" https://www.giet.ac.in/img_external/slider/slider2.jpg");
+
+   
+  height: 50%;
+
+   
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
  
-header img{
-  float:left;
-  width:100px;
-  position:absolute;
-  
+ 
 
 .topnav-right a{
     float:right;
@@ -84,8 +95,25 @@ form.example button {
     text-align: left;
     font-family: sans-serif;
   }
-  .column {
+  .col-sm-4{
     float: left;
     width: 25%;
-    padding: 5px;
+    padding: 33px;
   }
+  .div{
+    float:right;
+    display:block;
+    width:30%;
+    position:relative;
+}
+footer{
+  background-color:maroon;
+  color:white;
+  text-align:center
+  }
+  .column {
+    float: left;
+    width: 30.33%;
+    padding-right: 10px;
+    height: 400px; 
+    }
