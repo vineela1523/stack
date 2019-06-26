@@ -1,41 +1,71 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>assignment.com</title>
+  <title>Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="960_12_col.css" />
   <link rel="stylesheet" href="text.css" />
-
-
-
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <style>
-    aside {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-
-    }
-  </style>
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+         
+        .header {
+          padding: 10px 16px;
+          background: #555;
+          color: #f1f1f1;
+        }
+        
+        
+        
+        .sticky {
+          position: fixed;
+          top: 0;
+          width: 100%;
+        }
+  <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+         
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        </script>
 </head>
-<header>
-  <img scr="giet.jpg" width="100%" ; height="absolute">
-</header>
-
 <body>
-  <aside>
-
-    <img src="my.jpg" width="150px" ; height="75px">
-
-
-    <div class="topnav-right">
-      <button onclick="myFunction()" class="subscribtn">sigh in</button>
-
-      <a href="#">home</a>
-      <a href="#">about</a>
-      <a href="#">events</a>
-      <a href="#">contact</a>
+        <div class="header" id="myHeader">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+            <img src=" my.jpg"  width="150px" height="50px">
     </div>
-  </aside><br><br>
+    <form class="navbar-form navbar-right" action="/action_page.php">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search" name="search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#"> Events</a></li>
+      <li><a href="#"> Contacts</a></li>
+    </ul>
+    
+  </div>
+</nav>
+<br>
   <div class="hero-image"></div><br></br>
   <div class="container_12">
     <div class="main clearfix">
@@ -159,15 +189,19 @@
         </section>
       </div>
     </div>
+    </div>
 
+     
     <br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br>
-    <footer>
+    <footer style="background-color:BLACK;">
+      <h1>WHY CHOOSE GIET</h1>
+      <h4>GIET MIC- AWARDED INDIA'S BEST MICROSOFT INOVATION CENTER BY MICROSOFT</h4>
+      <img src="http://giet.ac.in/img_external/mic.png" class="center"/>
+
       copyright@GIET.AC.IN ALL RIGHTS RESERVED
     </footer>
 
+ 
 
 </body>
-
 </html>

@@ -1,3 +1,22 @@
+header{
+  position: fixed;
+  width: 100%;
+  height: auto;
+}
+.carousel-inner img {
+  
+   
+  width: 100%; 
+  margin-top: auto;
+  height: 50%;
+
+   
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: default;
+   
+}
 aside{
   margin: none;
   width: 100%;
@@ -13,6 +32,9 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+nav-tabs{
+  position: default;
+}
 
 .hero-image {
    
@@ -25,7 +47,12 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  position: default;
+}
+jumbotron{
+  background-color: pink;
+  
+   
 }
 
  
@@ -116,4 +143,10 @@ footer{
     width: 25%;
     padding: 33px;
     height: 350px;
+    }
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 10%;
     }
