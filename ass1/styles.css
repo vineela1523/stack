@@ -4,17 +4,14 @@ header{
   height: auto;
 }
 .carousel-inner img {
-  
-   
-  width: 100%; 
-  margin-top: auto;
   height: 50%;
-
-   
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: default;
+  position: default;  
+}              
+
+   
    
 }
 aside{
@@ -32,31 +29,11 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
-nav-tabs{
-  position: default;
-}
+ 
 
-.hero-image {
-   
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(" https://www.giet.ac.in/img_external/slider/slider2.jpg");
-
-   
-  height: 50%;
-
-   
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: default;
-}
 jumbotron{
   background-color: pink;
-  
-   
 }
-
- 
- 
 
 .topnav-right a{
     float:right;
@@ -122,7 +99,7 @@ form.example button {
     text-align: left;
     font-family: sans-serif;
   }
-  .col-sm-4{
+  .col-sm{
     float: left;
     width: 25%;
     padding: 33px;
@@ -150,3 +127,4 @@ footer{
       margin-right: auto;
       width: 10%;
     }
+  
