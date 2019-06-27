@@ -1,0 +1,126 @@
+
+header{
+    width: 100%;
+    font-family: 'Righteous', cursive; 
+    background-color: black;
+}
+body{
+     
+    font-family: 'Righteous', cursive; 
+    
+}
+.navbar-brand img{
+    height: 75px;
+    width: 75px;
+}
+
+ a{
+     font-size: 20px;
+     margin-right: 10px;
+}
+ a:hover{
+     text-decoration: underline;
+     color: rgb(2, 0, 0);    
+ }
+
+ }
+.carousel-inner img{
+    height: 60vh;
+    width: 0vw;
+}
+.jumbotron-section{ 
+    text-align: center;
+    padding: 30px;
+}
+.jumbotron p{
+    font-size: 16px;
+}
+.gridstyle{
+    margin-left: 150px;    
+}
+.gridstyle .card{
+    overflow: hidden;
+}
+
+.gridstyle img
+{
+   height:25vh;
+   width: 20vw;
+   border: 2px solid gray;
+  margin:0px 0px 0px 1px; 
+}
+
+.modal-header{
+    background-color:pink(83, 13, 214);
+    text-decoration-color: black;
+}
+
+footer {
+    padding-top: 20px;
+    padding-right: 60px;
+    margin-top: 50px;
+    height: 200px;
+    background-color:pink;
+    text-align: center;
+} 
+footer a{
+    padding-top: 20px;
+    padding-right: 60px;
+    margin-top: 50px;
+    height: 200px;
+    background-color:black
+    font-size: 20px;
+}
+.modal-dialog{
+    padding-top: 15%;
+}
+.modal-body{
+    background-color: rgb(231, 15, 184);
+    text-decoration-color: black;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+
+
+
