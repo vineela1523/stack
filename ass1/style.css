@@ -23,7 +23,7 @@ body{
      color: rgb(2, 0, 0);    
  }
 
- }
+ 
 .carousel-inner img{
     height: 60vh;
     width: 0vw;
@@ -34,6 +34,12 @@ body{
 }
 .jumbotron p{
     font-size: 16px;
+
+}
+.scroll-box {
+    overflow-y: scroll;
+    height: 100px;
+    padding: 1rem
 }
 .gridstyle{
     margin-left: 150px;    
@@ -61,15 +67,11 @@ footer {
     margin-top: 50px;
     height: 200px;
     background-color:pink;
-    text-align: center;
+     
 } 
 footer a{
-    padding-top: 20px;
-    padding-right: 60px;
-    margin-top: 50px;
-    height: 200px;
-    background-color:black
-    font-size: 20px;
+     
+    font-size: 50px;
 }
 .modal-dialog{
     padding-top: 15%;
